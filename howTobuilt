@@ -1,0 +1,6 @@
+1. installer SFML : sudo apt-get install libsfml-dev 
+2. compiler un programme SFML :
+	* g++ -c main.cpp / g++ -c main.cpp -I<sfml-install-path>/include (si on a changé le chemin d'installation de SFLM)
+	* g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+	*./sfml-app
+3. jouer maintenant
